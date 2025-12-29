@@ -73,31 +73,25 @@ body {
 .logo-icon {
     width: 28px;
     height: 28px;
-    background-color: #FFD700;
-    /* Yellow circle background */
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 8px;
-    color: #000;
+    object-fit: contain;
+    /* Removed CSS drawing styles */
+    /* background-color: #FFD700; */
+    /* border-radius: 50%; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* color: #000; */
     position: relative;
     flex-shrink: 0;
-    /* Prevent shrinking in button */
 }
 
 /* Button specific logo adjustments */
 .btn-logo {
-    /* Optional: slightly larger for button if needed, but keeping 28px matches other icons */
+    /* Optional: adjustments if needed */
 }
 
-/* Simplified visual approximation of the logo */
-.logo-icon::after {
-    content: "KAA";
-    font-size: 8px;
-    font-weight: 800;
-}
+/* Removed CSS logo pseudo-element */
+/* .logo-icon::after { ... } */
 
 .brand-name {
     font-size: 0.75rem;
