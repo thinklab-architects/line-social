@@ -19,7 +19,7 @@
     /* Social Brand Colors (for hover) */
     --instagram-color: #E1306C;
     --facebook-blue: #1877F2;
-    --website-gold: #D4AF37;
+    --youtube-red: #FF0000;
 }
 
 body {
@@ -178,9 +178,9 @@ body {
     color: var(--facebook-blue);
 }
 
-.btn-web:hover {
-    border-color: var(--website-gold);
-    color: var(--website-gold);
+.btn-yt:hover {
+    border-color: var(--youtube-red);
+    color: var(--youtube-red);
 }
 
 .icon {
