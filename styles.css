@@ -70,28 +70,42 @@ body {
     margin-bottom: 5px;
 }
 
+/* Image Logo (Header) */
 .logo-icon {
     width: 28px;
     height: 28px;
     object-fit: contain;
-    /* Removed CSS drawing styles */
-    /* background-color: #FFD700; */
-    /* border-radius: 50%; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* color: #000; */
     position: relative;
     flex-shrink: 0;
+}
+
+/* CSS Drawn Logo (Button) - Restored */
+.kaa-css-logo {
+    width: 28px;
+    height: 28px;
+    background-color: #FFD700;
+    /* Yellow circle background */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 8px;
+    color: #000;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.kaa-css-logo::after {
+    content: "KAA";
+    font-size: 8px;
+    font-weight: 800;
 }
 
 /* Button specific logo adjustments */
 .btn-logo {
     /* Optional: adjustments if needed */
 }
-
-/* Removed CSS logo pseudo-element */
-/* .logo-icon::after { ... } */
 
 .brand-name {
     font-size: 0.75rem;
